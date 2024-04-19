@@ -1,12 +1,4 @@
 # pritunl_auto - Ubuntu
 
-git clone https://github.com/syrusnfs/pritunl_auto.git
-
-cd pritunl_auto
-
-sudo chmod +x setup-pritunl.sh
-
-./setup-pritunl.sh
-
-
+sudo curl -O https://raw.githubusercontent.com/syrusnfs/pritunl_auto/main/setup-pritunl.sh && chmod +x setup-pritunl.sh && ./setup-pritunl.sh
 
